@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Monaco_News>
-            <version>0.1.0</version>
+            <version>0.2.0</version>
         </Monaco_News>
     </modules>
     <global>
