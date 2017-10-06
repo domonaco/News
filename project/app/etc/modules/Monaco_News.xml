@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Monaco_News>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Monaco_News>
+    </modules>
+</config>

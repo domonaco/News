@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Monaco_News>
+            <version>0.1.0</version>
+        </Monaco_News>
+    </modules>
+    <global>
+        <blocks>
+            <monaco_news>
+                <class>Monaco_News_Block</class>
+            </monaco_news>
+        </blocks>
+        <helpers>
+            <monaco_news>
+                <class>Monaco_News_Helper</class>
+            </monaco_news>
+        </helpers>
+        <models>
+            <monaco_news>
+                <class>Monaco_News_Model</class>
+                <resourceModel>monaco_news_resource</resourceModel>
+            </monaco_news>
+            <monaco_news_resource>
+                <class>Monaco_News_Model_Resource</class>
+                <entities>
+                    <category>
+                        <table>monaco_news_category</table>
+                    </category>
+                    <story>
+                        <table>monaco_news_story</table>
+                    </story>
+                </entities>
+            </monaco_news_resource>
+        </models>
+        <resources>
+            <monaco_news_setup>
+                <setup>
+                    <module>Monaco_News</module>
+                </setup>
+            </monaco_news_setup>
+        </resources>
+    </global>
+    <frontend>
+
+    </frontend>
+    <admin>
+
+    </admin>
+    <adminhtml>
+
+    </adminhtml>
+    <default>
+
+    </default>
+</config>
