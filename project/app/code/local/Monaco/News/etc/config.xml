@@ -42,13 +42,37 @@
         </resources>
     </global>
     <frontend>
-
+        <translate>
+            <modules>
+                <monaco_news>
+                    <files>
+                        <default>Monaco_News.csv</default>
+                    </files>
+                </monaco_news>
+            </modules>
+        </translate>
     </frontend>
     <admin>
-
+        <routers>
+            <monaco_news>
+                <use>admin</use>
+                <args>
+                    <module>Monaco_News</module>
+                    <frontName>monaco_news</frontName>
+                </args>
+            </monaco_news>
+        </routers>
     </admin>
     <adminhtml>
-
+        <translate>
+            <modules>
+                <monaco_news>
+                    <files>
+                        <default>Monaco_News.csv</default>
+                    </files>
+                </monaco_news>
+            </modules>
+        </translate>
     </adminhtml>
     <default>
 
