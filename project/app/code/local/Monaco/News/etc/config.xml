@@ -73,6 +73,13 @@
                 </monaco_news>
             </modules>
         </translate>
+        <layout>
+            <updates>
+                <monaco_news>
+                    <file>monaco_news.xml</file>
+                </monaco_news>
+            </updates>
+        </layout>
     </adminhtml>
     <default>
 

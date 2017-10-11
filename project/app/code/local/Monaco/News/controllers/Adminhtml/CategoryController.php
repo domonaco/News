@@ -18,7 +18,8 @@ class Monaco_News_Adminhtml_CategoryController extends Mage_Adminhtml_Controller
      */
     public function indexAction()
     {
-        echo 'eccomi'; die;
+        $this->loadLayout();
+        $this->renderLayout();
     }
 
     /**
@@ -31,3 +32,4 @@ class Monaco_News_Adminhtml_CategoryController extends Mage_Adminhtml_Controller
 
     }
 }
+
