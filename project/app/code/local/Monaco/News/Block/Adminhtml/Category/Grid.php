@@ -72,7 +72,7 @@ class Monaco_News_Block_Adminhtml_Category_Grid extends Mage_Adminhtml_Block_Wid
                 'header' => $this->__('Status'),
                 'width' => 250,
                 'type' => 'options',
-                'options' => Mage::getModel('monaco_news/source_status')->toOptionArray(),
+                'options' => Mage::getModel('monaco_news/source_status')->toGridArray(),
                 'renderer' => 'monaco_news/adminhtml_category_grid_renderer_status'
             )
         );

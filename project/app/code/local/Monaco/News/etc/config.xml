@@ -51,6 +51,22 @@
                 </monaco_news>
             </modules>
         </translate>
+        <routers>
+            <monaco_news>
+                <use>standard</use>
+                <args>
+                    <module>Monaco_News</module>
+                    <frontName>stories</frontName>
+                </args>
+            </monaco_news>
+        </routers>
+        <layout>
+            <updates>
+                <monaco_news>
+                    <file>monaco_news.xml</file>
+                </monaco_news>
+            </updates>
+        </layout>
     </frontend>
     <admin>
         <routers>

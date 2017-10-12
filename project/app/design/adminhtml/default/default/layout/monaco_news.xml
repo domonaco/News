@@ -2,7 +2,18 @@
 <layout>
     <monaco_news_adminhtml_category_index>
         <reference name="content">
-            <block type="monaco_news/adminhtml_category" name="monaco_news.adminhtml.category.grid" />
+            <block type="monaco_news/adminhtml_category"
+                   name="monaco_news.adminhtml.category.grid" />
         </reference>
     </monaco_news_adminhtml_category_index>
+    <monaco_news_adminhtml_category_edit>
+        <reference name="left">
+            <block type="monaco_news/adminhtml_category_edit_tabs"
+                   name="monaco_news.adminhtml.category.edit.tabs" />
+        </reference>
+        <reference name="content">
+            <block type="monaco_news/adminhtml_category_edit"
+                   name="monaco_news.adminhtml.category.edit" />
+        </reference>
+    </monaco_news_adminhtml_category_edit>
 </layout>

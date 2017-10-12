@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <monaco_news_list_index>
+        <reference name="content">
+            <block type="monaco_news/story" name="monaco_news.list"
+                   template="monaco_news/list.phtml" />
+        </reference>
+    </monaco_news_list_index>
+</layout>
